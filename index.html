@@ -3,9 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="app.css" />
     <script src="dist/app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <section id="game-template">
+      <h1 id="game-title">Tic Tac Toe</h1>
+      <div id="game-container">
+        <div data-cell-index="0" class="cell"></div>
+        <div data-cell-index="1" class="cell"></div>
+        <div data-cell-index="2" class="cell"></div>
+        <div data-cell-index="3" class="cell"></div>
+        <div data-cell-index="4" class="cell"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell"></div>
+        <div data-cell-index="7" class="cell"></div>
+        <div data-cell-index="8" class="cell"></div>
+      </div>
+      <h2 id="game-status"></h2>
+      <button id="game-restart">Restart Game</button>
+    </section>
+  </body>
 </html>
